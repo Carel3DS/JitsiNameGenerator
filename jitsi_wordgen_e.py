@@ -1,5 +1,6 @@
 import os
 from getpass import getuser
+# wordlists
 PLURALNOUN = [
     'Abilities', 'Absences', 'Abundances', 'Academics',
     'Academies', 'Accents', 'Acceptances', 'Accesses', 'Accidents',
@@ -992,7 +993,7 @@ user=getuser()
 os.chdir("E:")
 try:
     print("\n generating names... (press Ctrl+C to finish)")
-    file = open ("E:/jitsi_namelist_"+str(g)+".txt","w")
+    file = open ("E:/jitsi_namelist_"+str(g)+".txt","w") #change the directory where is going to save the list -make sure the directory is an empty folder!
     for w in range (a):
         for x in range(b):
             for y in range(c):
