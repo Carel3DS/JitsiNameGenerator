@@ -1,4 +1,4 @@
-# JitsiNameGenerator
+# Jitsi Name Generator
 
 A python program with the jitsi original list of names which generates and saves all possible room names that Jitsi can make automatically.Here,along with the program theres a example list with the first 1000 possible names for a Jitsi room name, to show that Jitsi name generator makes safe this service.
 
